@@ -20,6 +20,7 @@ h1 {
     background-color: rgb(117, 184, 213);
     padding: 20px;
   border-top: 20px;
+  padding-left: 50px;
   }
 
 .topright {
@@ -50,8 +51,10 @@ li {
 
   border: 5px;
   margin: 5px;
-  
+ 
 }
+
+
 
 section {
 margin: 20px;
@@ -65,10 +68,7 @@ body   {
 }
 
 img {
-  border-radius: 75%;
 
-border: 10px;
-margin: 10px;
 padding-top: 50px;
 }
 
@@ -79,3 +79,17 @@ h2 {
   border: 10px;
   padding: 15px;
 }
+
+.text {
+  background-color: rgb(42, 48, 54);
+ color: rgb(117, 184, 213);
+ font-size: 20px;
+font-family: serif;
+text-decoration: none;
+border-bottom: 5px solid rgb(117, 184, 213);
+padding-bottom: 3px;
+border-bottom-width: 1px;
+}
+
+
+
