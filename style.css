@@ -35,17 +35,15 @@ right: 3%;
 nav  {
   text-decoration:  rgb(117, 184, 213);
   background-color: rgb(42, 48, 54);
-  
-
 }
 
 
 ul {
   list-style: none;
-display: flex;
+  display: flex;
+
 justify-content: end;
 background-color: rgb(42, 48, 54);
-
 
 }
 
@@ -56,34 +54,6 @@ li {
  
 }
 
-
-
-section {
-margin: 20px;
-border: 10px;
-padding: 15px;
-}
-
-
-body   {
-  padding-top: 65px;
-}
-
-img {
-
-padding-top: 50px;
-}
-
-
-h2 {
-  float: left;
-  margin: 20px;
-  border: 10px;
-  padding: 15px;
-  position: relative;
-  color:rgb(59, 78, 98) ;
-}
-
 .text {
   background-color: rgb(42, 48, 54);
  color: rgb(117, 184, 213);
@@ -92,51 +62,46 @@ font-family: serif;
 text-decoration: none;
 border-bottom: 5px solid rgb(117, 184, 213);
 padding-bottom: 3px;
-border-bottom-width: 2.5px;
+border-bottom-width: 2.85px;
 }
 
-#about-me, #my-work, #contact, #resume  {
+/* media query skills are in progress*/
+@media screen and (max-width: 875px) {
+  nav  {
+   display: none;
+  }
+ }
+ 
+ h2 {
+border-right: 20px;
+border-color: black;
+border-right-width: 5px;
+border-style: solid;
+border-top: 0;
+border-left: 0; 
+margin: 60px;
 font-size: 50px;
-border-right: 20px solid  rgb(42, 48, 54); 
-border-width: 3px;
-
 }
- .me
- {
-  position: absolute;
-  bottom: 10%;
-  right: 83.5%;
-  font-size: 50px;
-  border-right: 20px solid  rgb(42, 48, 54); 
-  border-width: 3px;
-  
+ 
 
+
+.image1:hover {
+
+ transform: scale(2.5);
+ transition: .4s;
 }
 
-p {
-  margin: 20px;
-  border: 20px;
-  padding: 20px;
-}
 
-#my-work  {
-  position: relative ;
-  left: .80%;
-  padding-top: 50px;
-}
+.image1 {
 
-#contact  {
-  position: absolute;
-  left: .475%;
+
+}
 
  
-}
 
-.mee {
-  font-size: 50px;
-  border-right: 20px solid  rgb(42, 48, 54); 
-  border-width: 3px;
-  position: absolute;
-  bottom: -35%;
-  right: 80%;
-}
+
+
+
+
+
+
