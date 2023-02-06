@@ -72,27 +72,30 @@ border-bottom-width: 2.85px;
   }
  }
  
+ 
+ 
  h2 {
-border-right: 20px;
 border-color: black;
-border-right-width: 5px;
+border-right-width: 3px;
+border-bottom-width: 6px;
 border-style: solid;
 border-top: 0;
 border-left: 0; 
-margin: 60px;
+margin: 30px;
 font-size: 50px;
+color: rgb(42, 48, 54);
 }
  
 .image1 {
-  margin-left: 100px;
+  margin-left: 115px;
 
 
 }
 
 .image1:hover {
 cursor: pointer;
- transform: scale(1.5);
- transition: .4s;
+ transform: scale(1.3);
+ transition: 1s;
 
 }
 
@@ -100,15 +103,44 @@ cursor: pointer;
 flex: auto;
   margin: 20px;
   font-size: 20px;
+
+}
+
+.paragraph {
+font-family: cursive;
+  margin-left: 300px;
+  font-size: 30px;
   
 }
 
+.myself {
+margin-left: 690px;
+  border-radius: 50%;
+  display: flex;
+}
 
+.myself:hover {
+  transform: scale(1.475);
+  transition: 3.0s;
+}
 
+.phone {
 
+  margin-left: 540px;
+}
+
+@media (max-width: 840px) {
+  .email, .phone, .github {
+    display:flex
+
+  }
+}
  
 
+.placeholder {
 
+  margin-left: 175px;
+}
 
 
 
