@@ -83,19 +83,28 @@ margin: 60px;
 font-size: 50px;
 }
  
+.image1 {
+  margin-left: 100px;
 
+
+}
 
 .image1:hover {
-
- transform: scale(2.5);
+cursor: pointer;
+ transform: scale(1.5);
  transition: .4s;
+
+}
+
+.email, .phone, .github {
+flex: auto;
+  margin: 20px;
+  font-size: 20px;
+  
 }
 
 
-.image1 {
 
-
-}
 
  
 
