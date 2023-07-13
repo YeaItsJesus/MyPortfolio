@@ -1,7 +1,7 @@
 # MyPortfolio
 
 
-Deployed Website : https://yeaitsjesus.github.io/My1stPortfolio/
+Deployed Website :  https://yeaitsjesus.github.io/Portfolio/
 
 <img width="1512" alt="Screenshot 2023-02-06 at 3 30 37 PM" src="https://user-images.githubusercontent.com/122085651/217092567-e56d32db-3b6b-41da-86be-e81800435676.png">
 
